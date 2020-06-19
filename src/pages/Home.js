@@ -1,4 +1,5 @@
 import React from 'react';
+import TimeAgo from "react-timeago";
 
 const Home = () => {
 
@@ -17,6 +18,12 @@ const Home = () => {
           Granger announcing federal orders in the city of Galveston, Texas, on
           June 19, 1865, proclaiming that all slaves in Texas were now free. 
         </span>
+      </div>
+
+      <br />
+
+      <div>
+        <span>Time since slaves were freed in Texas on June 19th, 1865 (where the day gets it’s origin):</span> <TimeAgo date={new Date("1865/6/19")} />
       </div>
 
       <br />
