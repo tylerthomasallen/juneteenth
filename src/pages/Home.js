@@ -4,7 +4,7 @@ import TimeAgo from "react-timeago";
 const Home = () => {
 
   return (
-    <div>
+    <div style={{maxWidth: 1200}}>
       <h1>Juneteenth</h1>
       <h3>
         History of Juneteenth (
