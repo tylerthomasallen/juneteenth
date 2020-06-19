@@ -23,7 +23,11 @@ const Home = () => {
       <br />
 
       <div>
-        <span>Time since slaves were freed in Texas on June 19th, 1865 (where the day gets it’s origin):</span> <TimeAgo date={new Date("1865/6/19")} />
+        <span style={{ fontWeight: "bold" }}>
+          Time since slaves were freed in Texas on June 19th, 1865 (where the
+          day gets it’s origin):
+        </span>{" "}
+        <TimeAgo date={new Date("1865/6/19")} />
       </div>
 
       <br />
@@ -42,6 +46,15 @@ const Home = () => {
       <br />
 
       <div>
+        <span style={{ fontWeight: "bold" }}>
+          Time since the Emancipation Proclamation:
+        </span>{" "}
+        <TimeAgo date={new Date("1863/1/1")} />
+      </div>
+
+      <br />
+
+      <div>
         <span>
           A common misconception is that this day marks the end of slavery in
           the United States. Although this day marks the emancipation of all
@@ -51,6 +64,31 @@ const Home = () => {
           the Thirteenth Amendment to the Constitution of the United States on
           December 6, 1865, which abolished slavery entirely in all of the U.S.
           states and territories.
+        </span>
+      </div>
+
+      <br />
+
+      <div>
+        <span style={{ fontWeight: "bold" }}>
+          Time since slavery was officially ended in the US with the Thirteenth
+          Amendment
+        </span>{" "}
+        <TimeAgo date={Date.parse("1865/12/6")} />
+      </div>
+
+      <br />
+
+      <h3>Juneteenth Today</h3>
+      <div>
+        <span>
+          Juneteenth celebrates African American freedom and achievement, while
+          encouraging continuous self-development and respect for all cultures.
+          Juneteenth is celebrated in most major cities across the United
+          States. Activists are campaigning for the United States Congress to
+          recognize Juneteenth as a national holiday. Juneteenth is recognized
+          as a state holiday or special day of observance in 49 of the 50 U.S.
+          states.
         </span>
       </div>
     </div>
