@@ -28,7 +28,6 @@ const Home = () => {
           day gets it’s origin):
         </span>{" "}
         <TimeAgo date={new Date("1865/6/19")} />{" "}
-        <TimeAgo date={new Date("2020/6/19").setHours("0")} />
       </div>
 
       <br />
@@ -51,7 +50,6 @@ const Home = () => {
           Time since the Emancipation Proclamation:
         </span>{" "}
         <TimeAgo date={new Date("1863/1/1")} />{" "}
-        <TimeAgo date={new Date("2020/1/1").setHours("0")} />
       </div>
 
       <br />
@@ -77,7 +75,6 @@ const Home = () => {
           Amendment
         </span>{" "}
         <TimeAgo date={Date.parse("1865/12/6")} />{" "}
-        <TimeAgo date={new Date("2019/12/16").setHours("0")} />
       </div>
 
       <br />
