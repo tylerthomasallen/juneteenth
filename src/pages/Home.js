@@ -4,7 +4,7 @@ import TimeAgo from "react-timeago";
 const Home = () => {
 
   return (
-    <div style={{maxWidth: 1200}}>
+    <div style={{ maxWidth: 1200 }}>
       <h1>Juneteenth</h1>
       <h3>
         History of Juneteenth (
@@ -27,7 +27,8 @@ const Home = () => {
           Time since slaves were freed in Texas on June 19th, 1865 (where the
           day gets it’s origin):
         </span>{" "}
-        <TimeAgo date={new Date("1865/6/19")} />
+        <TimeAgo date={new Date("1865/6/19")} />{" "}
+        <TimeAgo date={new Date("2020/6/19").setHours("0")} />
       </div>
 
       <br />
@@ -49,7 +50,8 @@ const Home = () => {
         <span style={{ fontWeight: "bold" }}>
           Time since the Emancipation Proclamation:
         </span>{" "}
-        <TimeAgo date={new Date("1863/1/1")} />
+        <TimeAgo date={new Date("1863/1/1")} />{" "}
+        <TimeAgo date={new Date("2020/1/1").setHours("0")} />
       </div>
 
       <br />
@@ -74,7 +76,8 @@ const Home = () => {
           Time since slavery was officially ended in the US with the Thirteenth
           Amendment
         </span>{" "}
-        <TimeAgo date={Date.parse("1865/12/6")} />
+        <TimeAgo date={Date.parse("1865/12/6")} />{" "}
+        <TimeAgo date={new Date("2019/12/16").setHours("0")} />
       </div>
 
       <br />
@@ -89,6 +92,32 @@ const Home = () => {
           recognize Juneteenth as a national holiday. Juneteenth is recognized
           as a state holiday or special day of observance in 49 of the 50 U.S.
           states.
+        </span>
+      </div>
+
+      <br />
+      <br />
+
+      <h1>How can we help</h1>
+
+      <h3>Donation match</h3>
+      <div>
+        <span>
+          Unit21 will match donations up to X amount for each employee every year.
+        </span>
+      </div>
+
+      <h3>Volunteer</h3>
+      <div>
+        <span>
+          Volunteer for organizations that support the black community.
+        </span>
+      </div>
+
+      <h3>Public announcement</h3>
+      <div>
+        <span>
+         Be more public in support of the black community.
         </span>
       </div>
     </div>
